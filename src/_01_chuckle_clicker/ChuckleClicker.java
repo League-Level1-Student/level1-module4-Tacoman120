@@ -36,7 +36,7 @@ public class ChuckleClicker implements ActionListener {
 		// TODO Auto-generated method stub
 		
 		if(e.getSource() == two) {
-			JOptionPane.showMessageDialog(null, "A stick");
+			JOptionPane.showMessageDialog(null, "A stick!");
 		}
 		if(e.getSource() == one) {
 			JOptionPane.showMessageDialog(null, "What do you call a boomerang that won’t come back?");
