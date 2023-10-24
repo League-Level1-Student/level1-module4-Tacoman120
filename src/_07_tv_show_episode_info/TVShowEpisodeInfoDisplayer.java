@@ -44,7 +44,7 @@ public class TVShowEpisodeInfoDisplayer implements ActionListener {
 		// TODO Auto-generated method stub
 		String showName = this.text.getText();
 		if(e.getSource() == button) {
-			label.setText(getShowEpisodeData(showName));
+			JOptionPane.showMessageDialog(null, getShowEpisodeData(showName));
 		}
 	}
 	
