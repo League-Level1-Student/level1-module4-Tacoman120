@@ -52,12 +52,17 @@ public class SlotMachine implements ActionListener {
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
+		
 		int num1 = one.nextInt(3)+1;
 		int num2 = two.nextInt(3)+1;
 		int num3 = three.nextInt(3)+1;
+		
 		if(e.getSource() == spin) {
 			panel.removeAll();
 			panel.add(spin);
+			
+			
+			
 			if(num1 == 1) {
 				try {
 					panel.add(createLabelImage("Lucky7.jpeg"));
