@@ -96,9 +96,9 @@ if(arg0.getSource() == convertButton) {
         // 23. Set the text of decimalResult to the new String
 	String decimal = decimalResult.getText();
         // 24. Call binaryToHex() with the text from step 19 and save the result in a new String variable
-
+	String binaryToHex = binaryToHex(input);
         // 25. Set the text of hexResult to the new String
-
+	String hex = hexResult.getText();
         // OPTIONAL: Create your own methods to convert binary to decimal (base 10) and
         //           binary to hexidecimal (base 16) without using the Integer.parseInt() method!
 }
